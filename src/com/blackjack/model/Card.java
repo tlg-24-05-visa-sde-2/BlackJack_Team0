@@ -10,5 +10,9 @@ enum Card {
 
     ACE_CLUBS,
     TWO_CLUBS,
-    THREE_CLUBS;
+    THREE_CLUBS,
+
+    ACE_HEARTS,
+    TWO_HEARTS,
+    THREE_HEARTS;
 }
