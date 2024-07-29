@@ -11,9 +11,9 @@ public class Controller {
         startGame();
     }
 
-    // TODO: Alice
+    // DONE: Alice
     private void startGame() {
-
+        System.out.println("The game has started !!!");
     }
 
     // DONE: Bob
