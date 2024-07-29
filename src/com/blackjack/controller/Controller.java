@@ -1,6 +1,9 @@
 package com.blackjack.controller;
 
+import java.util.Scanner;
+
 public class Controller {
+    private final Scanner scanner = new Scanner(System.in);
 
     public void execute() {
         welcome();
@@ -13,9 +16,19 @@ public class Controller {
         System.out.println("The game has started !!!");
     }
 
-    // TODO: Bob
+    // DONE: Bob
     private void promptForPlayerNames() {
-
+        for (int i = 0; i < 4; i++) {
+            boolean validInput = false;
+            while (!validInput) {
+                System.out.print("Please enter your name: ");
+                String name = scanner.nextLine().trim();
+                if (!name.isEmpty()) {
+                    validInput = true;
+                    System.out.println("Thanks, " + name + "!");
+                }
+            }
+        }
     }
 
     private void welcome() {
