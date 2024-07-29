@@ -11,8 +11,10 @@ enum Card {
     ACE_CLUBS,
     TWO_CLUBS,
     THREE_CLUBS,
-
-    // Alice's HEARTS here
+    
+    ACE_HEARTS,
+    TWO_HEARTS,
+    THREE_HEARTS,
 
     ACE_DIAMONDS,
     TWO_DIAMONDS,
